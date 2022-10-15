@@ -108,3 +108,4 @@ C:\RND\GitTitorial1\gitAss1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Wo
 C:\RND\GitTitorial1\gitAss1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\RND\GitTitorial1\gitAss1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\RND\GitTitorial1\gitAss1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ContactUs.cshtml.g.cs
+C:\RND\GitTitorial1\gitAss1\bin\Debug\netcoreapp3.1\libman.json
