@@ -11,6 +11,7 @@ namespace gitAss1.Controllers
 {
     public class HomeController : Controller
     {
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -32,6 +33,25 @@ namespace gitAss1.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public string getname()
+        {
+            return "Basavaraj Loni";
+
+        }
+
+        public string getAge(int age)
+        {
+            return "Name: Basavaraj Loni, Age:" + age;
+        }
+        public string getusername(string uid)
+        {
+            return "Name: Basavaraj Loni, user id:" + uid;
+        }
+        public ViewResult Contactus(string uid)
+        {
+            return View();
         }
     }
 }
